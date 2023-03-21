@@ -2,3 +2,7 @@
 
 !.gitignore
 !resume.json
+
+## secrets
+!secrets
+!secrets/key.gpg
