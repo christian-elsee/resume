@@ -25,7 +25,7 @@
       "name": "Upwork freelance",
       "position": "DevOps Consultant",
       "startDate": "2020-12-31",
-      "endDate": "",
+      "endDate": "2023-12-31",
       "highlights": [],
       "summary": "- Architected HA Kubernetes platforms across multiple cloud providers (AWS, Azure, Digital Ocean) \n- Built deployment pipelines (CICD) across multiple service providers (Github Actions, AWS Code Pipeline, AWS Code Build, Jenkins, CircleCI)\n- Codified infrastructure (IaC) as AWS Cloudformation templates\n- Developed bespoke cloud components (Golang) to service high volume environments",
       "url": "https://www.linkedin.com/company/upwork-freelance/"
