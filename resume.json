@@ -1,0 +1,284 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Christian Elsee",
+    "label": "DevOps Technical Lead",
+    "image": "",
+    "email": "christian.in@elsee.xyz",
+    "phone": "",
+    "url": "",
+    "summary": "Classically trained, multidisciplinary engineer, informed by two decades of industry experience. Filled multiple engineering roles, from backend development to operations, systems administration and reliability, addressing most points of the technology stack. Led multiple teams, in the most competitive national markets, while managing problems at scale.\n\nFor the last two years, I have acted as the primary caregiver to my now 4 y/o daughter, and as a result, have engaged primarily in consultancy work; now that she has reached school age, I am excited to join a talented team that is working on interesting and challenging problems.",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "christian-e-a60284269",
+        "url": "https://www.linkedin.com/in/christian-e-a60284269/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Upwork freelance",
+      "position": "DevOps Consultant",
+      "startDate": "2020-12-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "- Architected HA Kubernetes platforms across multiple cloud providers (AWS, Azure, Digital Ocean) \n- Built deployment pipelines (CICD) across multiple service providers (Github Actions, AWS Code Pipeline, AWS Code Build, Jenkins, CircleCI)\n- Codified infrastructure (IaC) as AWS Cloudformation templates\n- Developed bespoke cloud components (Golang) to service high volume environments",
+      "url": "https://www.linkedin.com/company/upwork-freelance/"
+    },
+    {
+      "name": "Sprinklr",
+      "position": "DevOps Technical Lead",
+      "startDate": "2018-06-30",
+      "endDate": "2020-07-31",
+      "highlights": [],
+      "summary": "social media ingester, high volume\n\n- Led 8 member DevOps team and participated in leadership discussions around architectural strategy \n- Automated predictive auto scaling thresholds, for Kafka brokers, by leveraging\nPrometheus to determine seasonality in historical data\n- Used SLO/SLI, to codify policy around service migration to Kubernetes, to help coordinate implementation strategies between different teams\n- Developed Ansible convergence workflow to streamline development efforts and to provide integration testing as part of a Jenkins CICD pipeline\n- Optimized Node.js asset pipeline, by scaling out builds across AWS CodeBuild and coordinating parallel work through AWS SQS and AWS Lambda\n- Integrated the Prometheus alerting stack into a bespoke Sensu incident-response platform",
+      "url": "https://www.linkedin.com/company/sprinklr/",
+      "location": "New York City Metropolitan Area"
+    },
+    {
+      "name": "Casecommons",
+      "position": "DevOps Tech Lead",
+      "startDate": "2016-10-31",
+      "endDate": "2018-02-28",
+      "highlights": [],
+      "summary": "crm platform, low volume\n\n- Led Microservices Devops team\n- Developed hybridized Ansible and AWS Cloudformation Tooling (IaC) \n- Built CICD pipeline across Github, Jenkins Pipeline and AWS Cloudformation\n- Migrated Node.js microservice platform to Kubernetes \n- Wrote Golang microservice SDK",
+      "url": "",
+      "location": "New York City Metropolitan Area"
+    },
+    {
+      "name": "Bloglovin",
+      "position": "Devops Senior Engineer",
+      "startDate": "2015-04-30",
+      "endDate": "2016-09-30",
+      "highlights": [],
+      "summary": "social media ingester, high volume\n\n- Led US DevOps team\n- Migrated tech stack to Docker\n- Codified infrastructure (IaC) with Saltstack\n- Designed Elasticsearch cluster for high-read environment\n- Built Postfix MTA relay to manage daily campaigns of 10+ million recipients \n- Integrated Selenium Grid into CICD Pipeline",
+      "url": "",
+      "location": "New York, United States"
+    },
+    {
+      "name": "Cancapital",
+      "position": "Director of DevOps",
+      "startDate": "2014-03-31",
+      "endDate": "2015-04-30",
+      "highlights": [],
+      "summary": "fintech, low volume\n\n- Led small DevOps team while playing a central role in determining operational road map \n- Developed a GitOps CICD pipeline through Github, CircleCi, Heroku\n- Streamlined local development by migrating tech stack to Docker\n- Codified AWS infrastructure (IaC) with Chef\n- Centralized logging using ELK stack",
+      "url": "",
+      "location": "New York City Metropolitan Area"
+    },
+    {
+      "name": "PetFlow",
+      "position": "Lead Backend Engineer",
+      "startDate": "2011-08-31",
+      "endDate": "2013-09-30",
+      "highlights": [],
+      "summary": "e-commerce, high volume\n\n- Acted as development team lead against polyglot stack (PHP, Laravel, Ruby, Rails)\n- Migrated monolith to SOA around a Rails RESTful API\n- Integrated Elasticsearch and implemented faceted product navigation\n- Added Varnish HTTP Cache to increase application throughput while significantly decreasing cloud resource costs\n- Used Ruby Resque to batch process large datasets for business reports. \n- Codified EC2 node orchestration with Chef\n- Built deployment pipeline using Github and Capistrano",
+      "url": "https://www.linkedin.com/company/pet-flow/",
+      "location": "New York City Metropolitan Area"
+    },
+    {
+      "name": "The Atlantic",
+      "position": "Senior Backend Engineer",
+      "startDate": "2010-08-31",
+      "endDate": "2011-07-31",
+      "highlights": [],
+      "summary": "content publisher, high volume\n\n- Developed features for Nginx, Django, Mysql web application\n- Integrated Apache Solr search engine and codified (IaC) configuration\n- Built recommendation engine as a Django REST API around Apache Solr",
+      "url": "https://www.linkedin.com/company/the-atlantic/",
+      "location": "Washington DC-Baltimore Area"
+    },
+    {
+      "name": "WTOP News",
+      "position": "Senior Backend Engineer",
+      "startDate": "2007-07-31",
+      "endDate": "2010-07-31",
+      "highlights": [],
+      "summary": "content publisher, medium volume\n\n- Developed features for Linux, Apache, Mysql and PHP web application\n- Integrated Sphinx search engine to provide semantic analysis of news content\n- Used Google Maps and live traffic-camera feeds to allow users to view traffic along any directions- based route",
+      "url": "https://www.linkedin.com/company/wtop-news/",
+      "location": "Washington DC-Baltimore Area"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Maryland",
+      "area": "Computer Science",
+      "studyType": "None",
+      "startDate": "1998-09-30",
+      "endDate": "2004-06-30",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microservices",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jenkins",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SaltStack",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST APIs",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ruby on Rails",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Go (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Front-End Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Service-Oriented Architecture (SOA)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Solr",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Infrastructure as code (IaC)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Objective-C",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Elastic Stack (ELK)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Back-End Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker Products",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Site Reliability Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Django",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Chef",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
