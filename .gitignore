@@ -2,6 +2,7 @@
 
 !.gitignore
 !resume.json
+!Makefile
 
 ## secrets
 !secrets
